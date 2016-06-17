@@ -4,3 +4,7 @@ swift app capture camera with
 - AVFoundation 
 - Save image to coredata (image orientation)
 - using cache haneke in UITableView during displaying captured data
+
+Cocoapod: 
+haneke
+
