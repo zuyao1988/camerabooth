@@ -12,6 +12,21 @@
 		1B53CD5B1D07CA5B00825C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B53CD591D07CA5B00825C3F /* Main.storyboard */; };
 		1B53CD5D1D07CA5B00825C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B53CD5C1D07CA5B00825C3F /* Assets.xcassets */; };
 		1B53CD601D07CA5B00825C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B53CD5E1D07CA5B00825C3F /* LaunchScreen.storyboard */; };
+		1B53CD691D07D22B00825C3F /* myCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD671D07D22B00825C3F /* myCoreDataModel.xcdatamodeld */; };
+		1B53CD6C1D07D26E00825C3F /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD6A1D07D26E00825C3F /* Person+CoreDataProperties.swift */; };
+		1B53CD6D1D07D26E00825C3F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD6B1D07D26E00825C3F /* Person.swift */; };
+		1B53CD6F1D07D2C300825C3F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD6E1D07D2C300825C3F /* DataController.swift */; };
+		1B53CD7F1D080FC500825C3F /* ImageGallery+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD7D1D080FC500825C3F /* ImageGallery+CoreDataProperties.swift */; };
+		1B53CD801D080FC500825C3F /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD7E1D080FC500825C3F /* ImageGallery.swift */; };
+		1B53CD821D08126400825C3F /* viewAllVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD811D08126400825C3F /* viewAllVC.swift */; };
+		1B53CD841D08141E00825C3F /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD831D08141E00825C3F /* GalleryCell.swift */; };
+		1B53CD861D094D4D00825C3F /* cameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD851D094D4D00825C3F /* cameraVC.swift */; };
+		1B53CD891D09510400825C3F /* CustomOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD871D09510400825C3F /* CustomOverlayViewController.swift */; };
+		1B53CD8A1D09510400825C3F /* CustomOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B53CD881D09510400825C3F /* CustomOverlayViewController.xib */; };
+		1B53CD8C1D09515D00825C3F /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CD8B1D09515D00825C3F /* CustomOverlayView.swift */; };
+		1BAF71FD1D125F8F0067A0C8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF71FC1D125F8F0067A0C8 /* DataService.swift */; };
+		1BAF72201D13E1940067A0C8 /* utilHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF721F1D13E1940067A0C8 /* utilHelper.swift */; };
+		9B0C18F33672FAC57E29A75F /* Pods_cameraBooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F89A8EC42CC12669A74AEE /* Pods_cameraBooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,23 @@
 		1B53CD5C1D07CA5B00825C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B53CD5F1D07CA5B00825C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B53CD611D07CA5B00825C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B53CD681D07D22B00825C3F /* myCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		1B53CD6A1D07D26E00825C3F /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataProperties.swift"; path = "../Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1B53CD6B1D07D26E00825C3F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		1B53CD6E1D07D2C300825C3F /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		1B53CD7D1D080FC500825C3F /* ImageGallery+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ImageGallery+CoreDataProperties.swift"; path = "../ImageGallery+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1B53CD7E1D080FC500825C3F /* ImageGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageGallery.swift; path = ../ImageGallery.swift; sourceTree = "<group>"; };
+		1B53CD811D08126400825C3F /* viewAllVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewAllVC.swift; sourceTree = "<group>"; };
+		1B53CD831D08141E00825C3F /* GalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		1B53CD851D094D4D00825C3F /* cameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraVC.swift; sourceTree = "<group>"; };
+		1B53CD871D09510400825C3F /* CustomOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayViewController.swift; sourceTree = "<group>"; };
+		1B53CD881D09510400825C3F /* CustomOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayViewController.xib; sourceTree = "<group>"; };
+		1B53CD8B1D09515D00825C3F /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		1BAF71FC1D125F8F0067A0C8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		1BAF721F1D13E1940067A0C8 /* utilHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilHelper.swift; sourceTree = "<group>"; };
+		A42949684994FDB83343485D /* Pods-cameraBooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraBooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-cameraBooth/Pods-cameraBooth.release.xcconfig"; sourceTree = "<group>"; };
+		D0F89A8EC42CC12669A74AEE /* Pods_cameraBooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cameraBooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90EA033B63382DB21C98C9F /* Pods-cameraBooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraBooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cameraBooth/Pods-cameraBooth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0C18F33672FAC57E29A75F /* Pods_cameraBooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +73,8 @@
 			children = (
 				1B53CD541D07CA5B00825C3F /* cameraBooth */,
 				1B53CD531D07CA5B00825C3F /* Products */,
+				953A45DCBAEBE31F701F441B /* Pods */,
+				EB6FF888CDE844025798D7A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,85 @@
 		1B53CD541D07CA5B00825C3F /* cameraBooth */ = {
 			isa = PBXGroup;
 			children = (
+				1BAF71FB1D125F7E0067A0C8 /* Services */,
+				1B53CD751D080B2200825C3F /* Model */,
+				1B53CD761D080B2A00825C3F /* View */,
+				1B53CD741D080B1400825C3F /* Controller */,
+				1BAF721E1D13E1820067A0C8 /* Util */,
 				1B53CD551D07CA5B00825C3F /* AppDelegate.swift */,
-				1B53CD571D07CA5B00825C3F /* ViewController.swift */,
 				1B53CD591D07CA5B00825C3F /* Main.storyboard */,
 				1B53CD5C1D07CA5B00825C3F /* Assets.xcassets */,
 				1B53CD5E1D07CA5B00825C3F /* LaunchScreen.storyboard */,
 				1B53CD611D07CA5B00825C3F /* Info.plist */,
+				1B53CD671D07D22B00825C3F /* myCoreDataModel.xcdatamodeld */,
+				1B53CD6E1D07D2C300825C3F /* DataController.swift */,
 			);
 			path = cameraBooth;
+			sourceTree = "<group>";
+		};
+		1B53CD741D080B1400825C3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B53CD571D07CA5B00825C3F /* ViewController.swift */,
+				1B53CD811D08126400825C3F /* viewAllVC.swift */,
+				1B53CD851D094D4D00825C3F /* cameraVC.swift */,
+				1B53CD871D09510400825C3F /* CustomOverlayViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1B53CD751D080B2200825C3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B53CD7D1D080FC500825C3F /* ImageGallery+CoreDataProperties.swift */,
+				1B53CD7E1D080FC500825C3F /* ImageGallery.swift */,
+				1B53CD6A1D07D26E00825C3F /* Person+CoreDataProperties.swift */,
+				1B53CD6B1D07D26E00825C3F /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1B53CD761D080B2A00825C3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B53CD831D08141E00825C3F /* GalleryCell.swift */,
+				1B53CD881D09510400825C3F /* CustomOverlayViewController.xib */,
+				1B53CD8B1D09515D00825C3F /* CustomOverlayView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1BAF71FB1D125F7E0067A0C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1BAF71FC1D125F8F0067A0C8 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		1BAF721E1D13E1820067A0C8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1BAF721F1D13E1940067A0C8 /* utilHelper.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		953A45DCBAEBE31F701F441B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E90EA033B63382DB21C98C9F /* Pods-cameraBooth.debug.xcconfig */,
+				A42949684994FDB83343485D /* Pods-cameraBooth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB6FF888CDE844025798D7A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F89A8EC42CC12669A74AEE /* Pods_cameraBooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B53CD641D07CA5B00825C3F /* Build configuration list for PBXNativeTarget "cameraBooth" */;
 			buildPhases = (
+				6DA29F91164F76021E21880D /* 📦 Check Pods Manifest.lock */,
 				1B53CD4E1D07CA5B00825C3F /* Sources */,
 				1B53CD4F1D07CA5B00825C3F /* Frameworks */,
 				1B53CD501D07CA5B00825C3F /* Resources */,
+				A1292F964FDEDEF651FB9D69 /* 📦 Embed Pods Frameworks */,
+				018A558804EE93558A054E85 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B53CD8A1D09510400825C3F /* CustomOverlayViewController.xib in Resources */,
 				1B53CD601D07CA5B00825C3F /* LaunchScreen.storyboard in Resources */,
 				1B53CD5D1D07CA5B00825C3F /* Assets.xcassets in Resources */,
 				1B53CD5B1D07CA5B00825C3F /* Main.storyboard in Resources */,
@@ -130,13 +240,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		018A558804EE93558A054E85 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cameraBooth/Pods-cameraBooth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA29F91164F76021E21880D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1292F964FDEDEF651FB9D69 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cameraBooth/Pods-cameraBooth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B53CD4E1D07CA5B00825C3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B53CD891D09510400825C3F /* CustomOverlayViewController.swift in Sources */,
+				1B53CD801D080FC500825C3F /* ImageGallery.swift in Sources */,
+				1B53CD6D1D07D26E00825C3F /* Person.swift in Sources */,
+				1BAF72201D13E1940067A0C8 /* utilHelper.swift in Sources */,
+				1B53CD6F1D07D2C300825C3F /* DataController.swift in Sources */,
+				1B53CD7F1D080FC500825C3F /* ImageGallery+CoreDataProperties.swift in Sources */,
+				1B53CD6C1D07D26E00825C3F /* Person+CoreDataProperties.swift in Sources */,
+				1BAF71FD1D125F8F0067A0C8 /* DataService.swift in Sources */,
 				1B53CD581D07CA5B00825C3F /* ViewController.swift in Sources */,
+				1B53CD841D08141E00825C3F /* GalleryCell.swift in Sources */,
+				1B53CD861D094D4D00825C3F /* cameraVC.swift in Sources */,
 				1B53CD561D07CA5B00825C3F /* AppDelegate.swift in Sources */,
+				1B53CD8C1D09515D00825C3F /* CustomOverlayView.swift in Sources */,
+				1B53CD821D08126400825C3F /* viewAllVC.swift in Sources */,
+				1B53CD691D07D22B00825C3F /* myCoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +420,11 @@
 		};
 		1B53CD651D07CA5B00825C3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90EA033B63382DB21C98C9F /* Pods-cameraBooth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cameraBooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.cameraBooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,9 +433,11 @@
 		};
 		1B53CD661D07CA5B00825C3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42949684994FDB83343485D /* Pods-cameraBooth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cameraBooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.cameraBooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,8 +463,22 @@
 				1B53CD661D07CA5B00825C3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B53CD671D07D22B00825C3F /* myCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B53CD681D07D22B00825C3F /* myCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 1B53CD681D07D22B00825C3F /* myCoreDataModel.xcdatamodel */;
+			path = myCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1B53CD4A1D07CA5B00825C3F /* Project object */;
 }
